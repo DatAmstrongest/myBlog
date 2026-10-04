@@ -1,12 +1,13 @@
 export enum TagText {
     Software = "Software Development",
-    Devops = "Devops",
+    Devops = "DevOps",
     AI = "AI",
     History = "History",
     GameDev = "Game Development",
     Pixel = "Pixel Art",
     Security = "Security",
-    Cloud = "Cloud",
+    Cloud = "Cloud Technologies",
     Book = "Books",
-    Gaming = "Gamin"
+    Gaming = "Gaming",
+    Film = "Films"
 }  
