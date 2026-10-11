@@ -1,4 +1,7 @@
-# 1. Build the image
+# 1. Remove the container if it exists
+podman rm -f db-container
+
+# 2. Build the image
 podman build -t db .
 
 # 2. Run the container with a local directory mounted
